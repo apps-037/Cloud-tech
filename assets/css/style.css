@@ -1178,7 +1178,10 @@ section {
 }
 
 .team .member .member-info {
-  padding: 25px 15px;
+  margin: 20px;
+  padding: 35px 15px;
+  display: flex;
+  float: right;
 }
 
 .team .member .member-info h4 {
@@ -1196,10 +1199,19 @@ section {
 }
 
 .team .member .member-info p {
-  font-style: italic;
-  font-size: 14px;
-  line-height: 26px;
-  color: #777777;
+  font-style: none;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000;
+  padding: 0 40px;
+  text-align: left;
+}
+.member-info p A::after{
+  content: '';
+    width: 70px;
+    height: 2px;
+    background: #3498db;
+    display: inline-block;
 }
 
 .team .member:hover .social {
