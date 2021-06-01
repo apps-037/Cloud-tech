@@ -3311,6 +3311,7 @@ textarea.form-control-lg {
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
+
 .btn-check:checked + .btn-outline-light:focus, .btn-check:active + .btn-outline-light:focus, .btn-outline-light:active:focus, .btn-outline-light.active:focus, .btn-outline-light.dropdown-toggle.show:focus {
   box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
 }
